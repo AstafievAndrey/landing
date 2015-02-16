@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kraskilid - маркетинговое агентство</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/owl.js"></script>
+	<script type="text/javascript" src="js/county.js"></script>
+	<script type="text/javascript" src="js/progressbar.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".w-33").fancybox({
+			maxWidth: 800,
+			fitToView: false,
+			width: '70%',
+			height: 'auto',
+			autoSize: false,
+			closeClick: false,
+			openEffect: 'none',
+			closeEffect: 'none'
+		});
+	});
+	</script>
+</head>
+<body>
+	<div class="modal-wrapper">
+		<div class="modal-container">
+			<div class="row">
+				<div class="w-50">
+					<p>
+						<span class="orange">«Landing Page»</span>
+						– это одностраничный <strong>сайт с</strong>
+						простой структурой, продающими текстами и маркетинговыми <strong>хитростями, благодаря которым</strong>
+						сайт фокусирует внимание на важной информации и
+						<strong>стимулирует посетителей</strong>
+						совершать полезные действия: звонки в офис,
+						<strong>оформление заказов</strong>
+						и заявок на сайте, подписка на рассылку. За счет этого
+						<strong>«Landing Page» обеспечивает высокую конверсию</strong>
+						посетителей сайта в заинтересованных покупателей и
+						<strong>позволяет получать</strong>
+						максимальную
+						<strong>отдачу от вложений</strong>
+						в интернет рекламу.
+					</p>
+					<p>
+						<span class="orange">«Мультилендинг»</span>
+						-
+						<strong>позволяет подстраивать</strong>
+						текстовое и графическое
+						<strong>оформление</strong>
+						страницы захвата
+						<strong>под запрос</strong>
+						пользователя. А значит, и под его ожидания. Таким образом,
+						<strong>увеличивая среднюю конверсию</strong>
+						страницы захвата.
+					</p>
+					<p class="cta">
+						Заполните форму и наши специалисты
+						<br>свяжутся с Вами для консультации</p>
+				</div>
+				<div class="w-50 form-container">
+					<h2>
+						Консультация специалиста
+						<br>
+						команды
+						<span>KraskiLid</span>
+					</h2>
+					<h3>
+						Введите ваше имя, e-mail и телефон.
+						<br>
+						Специалисты KraskiLid свяжутся
+						<br>с вами для БЕСПЛАТНОЙ консультации.</h3>
+					<form action="send.php" method="POST" onsubmit="yaCounter27073721.reachGoal('wertyu');">
+						<label for="name">Введите Ваше имя</label>
+						<input type="text" name="name" placeholder="Иван Иванов" required>
+						<label for="email">Введите Ваш e-mail</label>
+						<input type="text" name="email" placeholder="ivan@gmail.com" required>
+						<label for="Введите Ваш телефон">Введите Ваш телефон</label>
+						<input type="text" name="phone" placeholder="+7 123 4567890" required>
+						<input class="button" type="submit" value="Получить консультацию"></form>
+					<p>
+						<img src="images/lock.png">
+						Ваши личные данные в безопасности
+						<br>и не будут переданы третьим лицам</p>
+					<a href="#" class="close-modal close">
+						<img src="images/close.png"></a>
+				</div>
+				<div class="arrow">
+					<img src="images/arrow.png"></div>
+			</div>
+		</div>
+	</div>
+	<div class="form-wrapper">
+		<div class="form-container">
+			<h2>
+				Консультация специалиста
+				<br>
+				команды
+				<span>KraskiLid</span>
+			</h2>
+			<h3>
+				Введите ваше имя, e-mail и телефон.
+				<br>
+				Специалисты KraskiLid свяжутся
+				<br>с вами для БЕСПЛАТНОЙ консультации.</h3>
+			<form action="send.php" onsubmit="yaCounter27073721.reachGoal('wertyu');">
+				<label for="name">Введите Ваше имя</label>
+				<input type="text" name="name" placeholder="Иван Иванов" required>
+				<label for="Введите Ваш телефон">Введите Ваш телефон</label>
+				<input type="text" name="phone" placeholder="+7 123 4567890" required>
+				<input class="button" type="submit" value="Получить консультацию"></form>
+			<p>
+				<img src="images/lock.png">
+				Ваши личные данные в безопасности
+				<br>и не будут переданы третьим лицам</p>
+			<a href=# class="close-modal close">
+				<img src="images/close.png"></a>
+		</div>
+	</div>
+	<div class="message-wrapper">
+		<div class="message-container"></div>
+	</div>
+	<section id="section1">
+		<header>
+			<div class="container">
+				<div class="w-70">
+					<img src="images/logo.png"></div>
+				<div class="w-30">
+					<p class="phone">+7 (980) 720-70-19</p>
+					<a class="call button">Заказать звонок</a>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<ul class="container">
+				<li>
+					<a href="#section4">Преимущества</a>
+				</li>
+				<li>
+					<a href="#section6">Наши работы</a>
+				</li>
+				<li>
+					<a href="#section7">Схема работы</a>
+				</li>
+				<li>
+					<a href="#section8">Цены</a>
+				</li>
+				<li>
+					<a href="#section9">Отзывы</a>
+				</li>
+				<li>
+					<a href="#section10">Команда</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="container">
+			<h1>
+				Бесподобные
+				<strong>Landing Page</strong>
+				<br>
+				<span>С гарантией взлета ваших продаж</span>
+				От франчайзи веб-студии <a href="http://landing5.me/">«KRASKI»</a>
+			</h1>
+			<div class="w-40">
+				<ul>
+					<li>Эффективно</li>
+					<li>Качественно</li>
+					<li>Эксклюзивно</li>
+				</ul>
+				<a class="call button">Начните работать с нами</a>
+			</div>
+		</div>
+	</section>
+	<section id="section2">
+		<div class="container">
+			<div class="row">
+				<div class="w-60">
+					<p>
+						Мы - маркетинговое агенство, занимающееся разработкой
+						<br>
+						мощных посадочных страниц
+						<strong>Landing Page</strong>
+						и
+						<br>
+						<strong>Мульти Landing Page</strong>
+						с гарантией получения покупателей
+						<br>
+						от Вашего бизнеса.
+						<br>
+						Мы
+						<strong>вернем Ваши деньги</strong>
+						, если не достигнем
+						<br>оговоренной конверсии.</p>
+					<a class="button modal-button">Узнать подробности</a>
+				</div>
+				<div class="w-40 video-wrapper">
+					<iframe src="http://www.youtube.com/embed/PQpyXDZO80Y" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section3">
+		<div class="container">
+			<h2>Факты</h2>
+			<div class="row">
+				<div class="w-20">
+					<div class="round" id="p1">
+						<span class="number" number="90"></span>
+					</div>
+					<hr>
+					<p>
+						Успешно
+						<br>
+						реализованных
+						<br> <b>проектов</b>
+					</p>
+				</div>
+				<div class="w-20">
+					<div class="round" id="p2">
+						<span class="number" number="6"></span>
+					</div>
+					<hr>
+					<p> <b>Лет опыта</b>
+						<br>работы</p>
+				</div>
+				<div class="w-20">
+					<div class="round" id="p3">
+						<span class="number" number="550"></span>
+					</div>
+					<hr>
+					<p>
+						Млн. рублей
+						<b>заработанных</b>
+						для наших клиентов
+					</p>
+				</div>
+				<div class="w-20">
+					<div class="round" id="p4">
+						<span class="number" number="100"></span>
+					</div>
+					<hr>
+					<p>
+						Процентов
+						<br>
+						гарантии
+						<br>
+						<b>качества</b>
+					</p>
+				</div>
+				<div class="w-20">
+					<div class="round" id="p5">
+						<span class="number" number="9"></span>
+					</div>
+					<hr>
+					<p>
+						Человек
+						<br>
+						персонально
+						<br>
+						<b>работают над</b>
+						<br>
+						Вашим
+						<b>проектом</b>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section4">
+		<div class="container">
+			<h2>
+				Наши
+				<br>преимущества</h2>
+			<div class="row">
+				<div class="w-25">
+					<img src="images/pre1.png">
+					<hr>
+					<p>
+						<span class="orange-orange">Уникальный дизайн</span>
+						<br>
+						с учетом Ваших
+						<br>пожеланий</p>
+				</div>
+				<div class="w-25">
+					<img src="images/pre2.png">
+					<hr>
+					<p>
+						<span class="orange-orange">Отличный сервис</span>
+						<br>
+						личный менеджер
+						<br>для Вашего проекта</p>
+				</div>
+				<div class="w-25">
+					<img src="images/pre3.png">
+					<hr>
+					<p>
+						<span class="orange-orange">Мощный копирайтинг</span>
+						<br>
+						с применением
+						<br>мировых техник</p>
+				</div>
+				<div class="w-25">
+					<img src="images/pre4.png">
+					<hr>
+					<p>
+						<span class="orange-orange">Соблюдение сроков</span>
+						<br>
+						ценим свое и Ваше
+						<br>время</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section5">
+		<div class="container">
+			<h2>
+				Почему именно
+				<b>Landing Page?</b>
+			</h2>
+			<div class="row">
+				<div class="w-15">
+					<img src="images/why1.png"></div>
+				<div class="w-85">
+					<p>
+						Landing page является самым
+						<span class="orange">эффективным</span>
+						способом привлечения
+						<br>
+						<span class="orange">клиентов</span>
+						через интернет
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="w-15">
+					<img src="images/why2.png"></div>
+				<div class="w-85">
+					<p>
+						Короткие
+						<span class="orange">сроки создания</span>
+						продающей страницы (от 3х дней)
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="w-15">
+					<img src="images/why3.png"></div>
+				<div class="w-85">
+					<p>
+						Гарантированное
+						<span class="orange">увеличение продаж</span>
+						вашего продукта или услуги
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="w-15">
+					<img src="images/why4.png"></div>
+				<div class="w-85">
+					<p>
+						<span class="orange">Высокая конверсия</span>
+						посетителей в покупателей
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section6">
+		<div class="container">
+			<h2>Наши работы</h2>
+			<div>
+				<div class="row">
+					<div class="w-33" href="images/big/1.jpg">
+							<img src="images/small/1.jpg" width="765">
+							<div class="inforow">
+							"Камчат карта"
+							</div>
+					</div>
+					<div class="w-33" href="images/big/2.jpg">
+							<img src="images/small/2.jpg" width="765">
+							<div class="inforow">
+							"MYCOW"<br />сеть коворкингов
+							</div>
+					</div>
+					<div class="w-33" href="images/big/3.jpg">
+							<img src="images/small/3.jpg" width="765">
+							<div class="inforow">
+							Экскурсии в Казани
+							</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="w-33" href="images/big/4.jpg">
+							<img src="images/small/4.jpg" width="765">
+							<div class="inforow">
+							"Daimex Limited"
+							</div>
+					</div>
+					<div class="w-33" href="images/big/5.jpg">
+							<img src="images/small/5.jpg" width="765">
+							<div class="inforow">
+							"Solutions"
+							</div>
+					</div>
+					<div class=" w-33" href="images/big/6.jpg">
+							<img src="images/small/6.jpg" width="765">
+							<div class="inforow">
+							Йога-туры
+							</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="w-33" href="images/big/7.jpg">
+							<img src="images/small/7.jpg" width="765">
+							<div class="inforow">
+							"SoxBox"
+							</div>
+					</div>
+					<div class="w-33" href="images/big/8.jpg">
+							<img src="images/small/8.jpg" width="765">
+							<div class="inforow">
+							Тренинг<br />"Избавление от суеты"
+							</div>
+					</div>
+					<div class="w-33" href="images/big/9.jpg">
+							<img src="images/small/9.jpg" width="765">
+							<div class="inforow">
+							"Pandora"
+							</div>
+					</div>
+				</div>
+			</div>
+			<a class="call button">Хочу такой же</a>
+		</div>
+	</section>
+	<section id="section7">
+		<div class="container">
+			<h2>Как это работает?</h2>
+			<div class="row first from-left">
+				<div class="w-33 anim">
+					<div class="img-wrapper">
+						<span class="helper"></span>
+						<img src="images/work1.png"></div>
+					<p>
+						1. Вы
+						<a href="#" class="call">оставляете заявку</a>
+						, и наш
+						<br>
+						менеджер связывается с вами
+						<br>в течение 10 минут</p>
+				</div>
+				<div class="w-33 anim">
+					<div class="img-wrapper">
+						<span class="helper"></span>
+						<img src="images/work2.png"></div>
+					<p>
+						2. Знакомимся с Вами
+						<br>
+						и уточняем все
+						<br>детали проекта</p>
+				</div>
+				<div class="w-33 anim last">
+					<div class="img-wrapper">
+						<span class="helper"></span>
+						<img src="images/work3.png"></div>
+					<p>
+						3. Погружаемся в Ваш
+						<br>
+						бизнес, анализируем нишу,
+						<br>клиентов и конкурентов</p>
+				</div>
+			</div>
+			<div class="row from-right">
+				<div class="w-33 anim">
+					<div class="img-wrapper">
+						<span class="helper"></span>
+						<img src="images/work9.png"></div>
+					<p>
+						6. Вы остаетесь довольны
+						<br>
+						и советуете нас
+						<br>своим друзьям</p>
+				</div>
+				<div class="w-33 anim">
+					<div class="img-wrapper">
+						<span class="helper"></span>
+						<img src="images/work4.png"></div>
+					<p>
+						5. Делаем адаптивную
+						<br>
+						верстку и настройку
+						<br>страницы захвата</p>
+				</div>
+				<div class="w-33 anim">
+					<div class="img-wrapper">
+						<span class="helper"></span>
+						<img src="images/work5.png"></div>
+					<p>
+						4. Разрабатываем
+						<br>
+						уникальный дизайн
+						<br>и продающий текст</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="w-65 action">
+					<h2>АКЦИЯ!</h2>
+					<h3>
+						Закажите мультилендинг
+						<br>
+						и получите настройку
+						<br>
+						ЯндексДирект и Google adWords
+						<br>
+						<strong>БЕСПЛАТНО</strong>
+					</h3>
+					<hr>
+					<div class="row">
+						<p class="w-50">
+							До конца
+							<br>акции осталось:</p>
+						<div class="w-50">
+							<div class="count"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="w-65">
+					<a class="call button">Узнать подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section8">
+		<div class="container">
+			<h2>
+				Наш Лендинг Пейдж,
+				<br>
+				<span>подойдет совершенно к любому бюджету</span>
+			</h2>
+			<div class="packets row">
+				<div class="packet packet1 w-33">
+					<div class="packet-container">
+						<h3>Стандарт</h3>
+						<p>Разработка дизайна</p>
+						<p>Верстка</p>
+						<p>Продающие триггеры</p>
+						<p>Домен+хостинг (2 месяца)</p>
+					</div>
+					<a class="button call">Узнать подробнее</a>
+				</div>
+				<div class="packet packet2 w-33 best">
+					<div class="packet-container">
+						<h3>
+							Gold
+							<span>Хит продаж!</span>
+						</h3>
+						<p>Разработка прототипа</p>
+						<p>Уникальный дизайн</p>
+						<p>Профессиональный копирайтинг</p>
+						<p>Продающие триггеры</p>
+						<p>Адаптивная верстка</p>
+						<p>Домен+хостинг (1 месяц)</p>
+						<p>Подключение аналитики</p>
+					</div>
+					<a class="button call">Узнать подробнее</a>
+				</div>
+				<div class="packet packet3 w-33">
+					<div class="packet-container">
+						<h3>Platinum</h3>
+						<p>Глубокий анализ конкурентов</p>
+						<p class="double">
+							Разработка прототипа от ведущих
+							<br>маркетологов</p>
+						<p class="double">
+							Люкс дизайн от лучших
+							<br>специалистов</p>
+						<p class="double">
+							Оптимизация под
+							<br>поисковые системы</p>
+						<p>Адаптивная верстка</p>
+						<p>Домен+хостинг (1 месяц)</p>
+						<p class="double">
+							Настройка рекламных кампаний
+							<br>в соц. сетях</p>
+						<p class="double">
+							Профессиональная настройка
+							<br>контекстной рекламы</p>
+						<p class="double">
+							Работа 2 недели над достижением
+							<br>МАКСИМАЛЬНОЙ конверсии</p>
+					</div>
+					<a class="button call">Узнать подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section9">
+		<div class="container">
+			<h2>Наши клиенты о нас</h2>
+			<div class="carousel2">
+				<div class="item">
+					<div class="row">
+						<div class="w-30">
+							<img src="images/c3.png" alt="">
+							<p>Евгений Садовников</p>
+						</div>
+						<div class="w-70">
+							За созданием лендинга обращался впервые, со сферой этой я знаком отдаленно, было большое количество вопросов на которые мне подробно ответили.
+							Выполнили все в срок, организованно ввели все поправки, которые я попросил.
+							В целом работой доволен, задача выполнена на отлично.
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="w-30">
+							<img src="images/c2.png" alt="">
+							<p>
+							Андрей Сироткин
+							</p>
+						</div>
+						<div class="w-70">
+							Здравствуйте! Благодарю команду "Краски" за качественно выполненную работу. Уже давно хотел заказать лендинг но не знал к кому обратиться, так как до этого был неприятный опыт работы с фрилансерами , мне был необходим толковый директолог по настройке контекстной рекламы, а также реклама в соц.сетях. Занимаюсь производством цемента. Что могу сказать по итогам работы, количество заявок в неделю сильно увеличилось. Мои вложения окупились в первую неделю. 
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="w-30">
+							<img src="images/c1.png" alt="">
+							<p>Валентина Симонова</p>
+						</div>
+						<div class="w-70">
+							Обычно не пишу отзывы, но ребятя попались душевные и очень обязательные. Все очень понравилось, так что советую.
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="w-30">
+							<img src="images/c4.png" alt="">
+							<p>Николай Рапаев</p>
+						</div>
+						<div class="w-70">
+							Выражаю вашему дружному коллективу благодарность за качество оказанных услуг по созданию, продвижению и обслуживанию нашего сайта. Все очень оперативно и качественно. Немаловажно, что в создании сайта были учтены все наши пожелания. Мы ценим Вашу профессиональную помощь и надеемся на дальнейшее сотрудничество!
+
+							Желаем дальнейшего развития, процветания и много новых клиентов. 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="http:/vk.com/topic-66939962_30059090@offset=40" class="button" target="_blank">Смотреть все отзывы</a>
+	</section>
+	<section id="section10">
+		<div class="container">
+			<h2>Наша команда</h2>
+			<div class="row">
+				<div class="popov">
+					<div class="w-40">
+						<img src="images/popov.jpg"></div>
+					<div class="w-60">
+						<p>
+							Александр Попов
+							<br>Генеральный директор KraskiLid</p>
+						<hr>
+						<p>
+							Участник Проекта Миллион за сто -
+							<br>
+							Бизнес Молодость.
+							<br>
+							5 успешных бизнесов с прибылью
+							<br>
+							от 200 тыс руб/мес. В сфере интернет
+							<br>маркетинга более 6 лет</p>
+					</div>
+				</div>
+				<img src="images/team.jpg">
+				<a class="call button">Получить бесплатную консультацию от команды KraskiLid</a>
+			</div>
+		</div>
+	</section>
+	<section id="section11">
+		<div class="container">
+			<h2>
+				Окупаемость наших проектов
+				<br>
+				<span>
+					от
+					<span class="orange">3 дней</span>
+					до
+					<span class="orange">3 месяцев</span>
+				</span>
+			</h2>
+			<h3>в результате вы получаете</h3>
+			<div class="row">
+				<div class="w-25">
+					<img src="images/get1.png">
+					<p>
+						<b>Тысячи</b>
+						<br>новых клиентов</p>
+				</div>
+				<div class="w-25">
+					<img src="images/get2.png">
+					<p>
+						Ваш бизнес
+						<br>
+						выйдет на
+						<br>
+						<b>новый уровень</b>
+						<br>прибыльности</p>
+				</div>
+				<div class="w-25">
+					<img src="images/get3.png">
+					<p>
+						Сформированную
+						<br>
+						<b>клиентскую базу</b>
+						<br>
+						для дальнейшей
+						<br>работы</p>
+				</div>
+				<div class="w-25">
+					<img src="images/get4.png">
+					<p>
+						Еженедельную
+						<br>
+						<b>отчетность о
+							<br>результатах</b>
+						<br>рекламной кампании</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section12">
+		<div class="container">
+			<h2>
+				Остались вопросы?
+				<span class="orange">Пишите!</span>
+			</h2>
+			<form action="send.php" onsubmit="yaCounter27073721.reachGoal('wertyu');">
+				<div class="row">
+					<div class="w-50 input-wrapper">
+						<span class="ico ico-man"></span>
+						<input type="text" name="name" placeholder="Ваше имя:" required></div>
+					<div class="w-50 input-wrapper">
+						<span class="ico ico-phone"></span>
+						<input type="text" name="phone" class="w-50" placeholder="Ваш телефон:" required></div>
+				</div>
+				<div class="row input-wrapper">
+					<span class="ico ico-mail"></span>
+					<input class="w-100" type="text" name="email" placeholder="Ваш e-mail:" required></div>
+				<div class="row input-wrapper">
+					<span class="ico ico-message"></span>
+					<textarea class="w-100" name="question" cols="30" rows="10" placeholder="Введите вопрос:"></textarea>
+				</div>
+				<input class="button" type="submit" value="Оставить вопрос"></form>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="w-70">
+					<img src="images/logo.png"></div>
+				<div class="w-30">
+					<p class="phone">+7 (980) 720-70-19</p>
+					<a class="call button">Заказать звонок</a>
+				</div>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
